@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "MediCare Plus",
+    "slug": "medicare-plus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.medicare.plus"
+    },
+    "android": {
+      "package": "com.medicare.plus"
+    },
+    "web": {},
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "58a3270d-831a-415e-8dd5-a0efcafd0d09"
+      }
+    },
+    "owner": "shoaibmujahid"
+  }
+}

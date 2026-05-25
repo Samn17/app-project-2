@@ -1,0 +1,29 @@
+# Project Requirements
+
+## Frontend Dependencies
+- expo ~51.0.0
+- @expo/metro-runtime ~3.2.3
+- expo-status-bar ~1.12.1
+- react 18.2.0
+- react-dom 18.2.0
+- react-native 0.74.1
+- react-native-web ~0.19.10
+- @babel/core ^7.24.0
+
+## Backend Dependencies
+- Flask
+- flask_cors
+- flask_socketio
+- mysql-connector-python
+
+## Recommended Python Version
+- Python 3.10 or newer
+
+## Runtime Requirements
+- Node.js / npm or yarn for Expo frontend
+- MySQL server accessible to the backend
+
+## Notes
+- Update `backend/config.py` with the correct MySQL credentials for your local environment.
+- The Flask backend listens on port `5000` by default.
+- The Expo frontend expects the backend API at `http://localhost:5000/api` unless overridden by `REACT_NATIVE_API_URL`.
